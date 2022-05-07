@@ -3,6 +3,6 @@ const menuRouter = express.Router()
 const menuController = require('../controllers/menuController');
 
 menuRouter.get('/', menuController.getHomepage);
-menuRouter.get('/detalhe/:id', menuController.getDetails);
+menuRouter.get('/detalheMenu/:id', menuController.getDetails);
 
 module.exports = menuRouter;

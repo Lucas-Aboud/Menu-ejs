@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Carpaccio fresco",
+        "description": "Cadaver cru super gostoso",
+        "price": 78.50,
+        "image": "carpaccio-de-salmao.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Risotto de Berinjela",
+        "description": "Risotto de Berinjela e queijo de cabra",
+        "price": 66.80,
+        "image": "risotto-berinjela-queijo-cabra.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Aspargos Brancos",
+        "description": "Aspargos brancos com vinagrete de legumes presunto vegano",
+        "price": 178.80,
+        "image": "aspargos.png"
+    },
+    {
+        "id": 4,
+        "name": "Mousse de arroz",
+        "description": "Mousse de arroz com leite e aromatizante de flor de laranjeira",
+        "price": 90.60,
+        "image": "mousse-de-arroz-com-leite.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Lasanha ao molho bolonhesa",
+        "description": "Lasanha bolonhesa com carne vegana e queijo de castanha",
+        "price": 399.99,
+        "image": "lasanha-bolonhesa.jpg"
+    }
+]
+
