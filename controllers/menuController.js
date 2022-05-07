@@ -9,7 +9,7 @@ const menu = require('../database/pratos.json')
 const menuController = {
     getHomepage: (req, res) => {
         res.render('index', {
-            menu
+           menu
         });
     },
     getDetails: (req, res) => {

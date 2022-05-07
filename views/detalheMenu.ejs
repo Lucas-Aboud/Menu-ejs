@@ -13,26 +13,27 @@
         <div class="ps-content">
 
           <!-- Menu Section -->
-          <div>
+          <div class="Visualisação-do-prato">
             <h2>
               <%= pratoFound.name %>
             </h2>
-            <h2>Detalhe do produto: <%= pratoFound.name %>
-            </h2>
-
-            <p>R$ <%= pratoFound.price.toFixed(2) %></p>
 
             <div>
               <img src="/images/<%= pratoFound.image %>" alt="product image">
-              <p>
-                <%= pratoFound.description %> 
-              </p>
-
-
             </div>
+
+            <p>
+              Sobre o Prato: <%= pratoFound.description %>
+            </p>
+
+            <p>
+              R$ <%= pratoFound.price.toFixed(2) %>
+            </p>
+
           </div>
 
           <%- include('./partials/footer') %>
+          
         </div>
   </body>
 
