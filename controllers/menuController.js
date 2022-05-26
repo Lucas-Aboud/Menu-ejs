@@ -5,6 +5,11 @@ const getInfoDatabase = require('../utils/getInfoDatabase')
 const pratos = getInfoDatabase('pratos')
 const pathPratosJSON = path.join(__dirname, '..', 'database', 'pratos.json')
 const menu = require('../database/pratos.json')
+// const login = require('../views/login')
+
+// const users = [
+//     { name: 'Lucas', id: 1 }
+// ]
 
 const menuController = {
     getHomepage: (req, res) => {
@@ -21,6 +26,9 @@ const menuController = {
         res.render('detalheMenu', {
             pratoFound
         })
+    },
+    getlogin: (req, res) => {
+        res.render('login');
     }
 }
 
