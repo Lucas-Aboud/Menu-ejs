@@ -1,10 +1,12 @@
 const express = require('express');
-const menuRouter = express.Router()
 const menuController = require('../controllers/menuController');
+const UsersController = require('../controllers/UsersController')
+
+const menuRouter = express.Router()
 
 menuRouter.get('/', menuController.getHomepage);
 menuRouter.get('/detalheMenu/:id', menuController.getDetails);
 menuRouter.get('/login', menuController.getlogin)
-
+menuRouter.post('/login', UsersController.login)
 
 module.exports = menuRouter;
